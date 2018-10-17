@@ -9,21 +9,21 @@ title: "Ключевые слова и операторы"
 
 ## Hard Keywords
 
-The following tokens are always interpreted as keywords and cannot be used as identifiers:
+Следующие токены всегда интерпретируются как ключевые слова и не могут использоваться в качестве идентификаторов:
 
  * `as` 
-      - is used for [type casts](/docs/reference/typecasts.html#unsafe-cast-operator)
-      - specifies an [alias for an import](/docs/reference/packages.html#imports)
- * `as?` is used for [safe type casts](/docs/reference/typecasts.html#safe-nullable-cast-operator)  
- * `break` [terminates the execution of a loop](http://kotlinlang.org/docs/reference/returns.html)
- * `class` declares a [class](/docs/reference/classes.html)
- * `continue` [proceeds to the next step of the nearest enclosing loop](/docs/reference/returns.html) 
- * `do` begins a [do/while loop](/docs/reference/control-flow.html#while-loops) (loop with postcondition)
- * `else` defines the branch of an [if expression](/docs/reference/control-flow.html#if-expression) which is executed when the condition is false
- * `false` specifies the 'false' value of the [Boolean type](/docs/reference/basic-types.html#booleans)
- * `for` begins a [for loop](/docs/reference/control-flow.html#for-loops)
- * `fun` declares a [function](/docs/reference/functions.html) 
- * `if` begins an [if expression](/docs/reference/control-flow.html#if-expression)
+      - используется для [приведения типов](/docs/reference/typecasts.html#unsafe-cast-operator)
+      - определяет [псевдоним для импорта](/docs/reference/packages.html#imports)
+ * `as?` используется для [безопасного приведения типов](/docs/reference/typecasts.html#safe-nullable-cast-operator)  
+ * `break` [прерывает выполнение цикла](http://kotlinlang.org/docs/reference/returns.html)
+ * `class` декларирует [класс](/docs/reference/classes.html)
+ * `continue` [выполняет переход к следующей итерации цикла](/docs/reference/returns.html) 
+ * `do` начинает [цикл do/while](/docs/reference/control-flow.html#while-loops) (loop with postcondition)
+ * `else` определяет ветку [условного выражения](/docs/reference/control-flow.html#if-expression), которое выполняется если условие ложно
+ * `false` определяет значение 'false' (ложь) [типа Boolean](/docs/reference/basic-types.html#booleans)
+ * `for` начинает [цикл for](/docs/reference/control-flow.html#for-loops)
+ * `fun` декларирует [функцию](/docs/reference/functions.html) 
+ * `if` начинает [условное выражение](/docs/reference/control-flow.html#if-expression)
  * `in`
      - specifies the object being iterated in a [for loop](/docs/reference/control-flow.html#for-loops)
      - is used as an infix operator to check that a value belongs to [a range](/docs/reference/ranges.html), 
